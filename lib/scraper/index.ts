@@ -75,7 +75,6 @@ export const scrapeAmazonProduct = async (url: string) => {
       stars: 4.4,
       isOutOfStock: outOfStock,
     };
-    // console.log("data: ", data);
 
     return data;
   } catch (error: any) {
